@@ -4,7 +4,7 @@
  * This file is part of testHelp.
  *
  * TestHelp contains utilities to simplify writing unit tests.
- * Copyright (C) 2015 Matthias Johannes Reimchen
+ * Copyright \(C\) \d\d\d\d .*
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -19,8 +19,3 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-
-/**
- * This package provides some Utility classes to help writing test cases.
- */
-package rex.palace.testhelp;

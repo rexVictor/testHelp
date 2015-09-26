@@ -1,9 +1,9 @@
 /*
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
  *
- * This file is part of Robbie.
+ * This file is part of testHelp.
  *
- * Robbie is a 2d-adventure game.
+ * TestHelp contains utilities to simplify writing unit tests.
  * Copyright (C) 2015 Matthias Johannes Reimchen
  *
  * This program is free software: you can redistribute it and/or modify
