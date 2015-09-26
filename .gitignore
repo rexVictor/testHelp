@@ -1,18 +1,15 @@
 *.class
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
 # Package Files #
 *.jar
-*.war
-*.ear
 
+<<<<<<< HEAD
 build/
 .gradle/
 .syntastic_javac_config
 *.swp
 .tags
+.checkstyle
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
@@ -20,4 +17,7 @@ hs_err_pid*
 # Ignore IntelliJ Files
 .idea/
 *.iml
-.checkstyle
+=======
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+>>>>>>> b453d3f5ca47418f742e65eadc7796a2c0618c83
