@@ -114,9 +114,22 @@ public final class ArgumentConverter {
      * @param arrays the array whose subarrays shall be cross produced
      * @return an Iterator over arrays containing the cross product
      */
-
     public static Iterator<Object[]> cross(Object[]... arrays) {
         return cross(Arrays.stream(arrays).map(Arrays::asList).collect(Collectors.toList()));
+    }
+
+    /**
+     * Adds the specified Collection to the inner arrays.
+     */
+    public static Object[][] addToInner(Object[][] base, Object... toAdd) {
+        for (int i = 0; i < base.length; i++) {
+            Object[] current = base[i];
+            Object[] newArray = new Object[current.length + toAdd.length];
+            System.arraycopy(current, 0, newArray, 0, current.length);
+            System.arraycopy(toAdd, 0, newArray, base.length, toAdd.length);
+            base[i] = newArray;
+        }
+        return base;
     }
 
     /**
